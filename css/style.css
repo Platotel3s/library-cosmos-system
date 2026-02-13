@@ -1,0 +1,19 @@
+.slide {
+  transition: opacity 0.5s ease;
+}
+
+.slide.hidden {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide-indicator.active {
+  background-color: white !important;
+}
+
+.slide-indicator {
+  transition: background-color 0.3s ease;
+}
